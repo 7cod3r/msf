@@ -1,0 +1,2 @@
+# msf
+Metasploit kurulum aracı
