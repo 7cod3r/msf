@@ -19,9 +19,9 @@ banner(){
 	echo "
 	"
         echo -e '   \e[32m[\033[31m*\e[32m]\033[33m Author:    \e[32mHe4LAN\e[0m\e[31m V1.0\e[0m'
-	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m My Website:    \e[32;40;4mhe4lan.org\e[0m'
-	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m INSTAGRAM: \e[32;40;4minstagram.com/he4lan\e[0m'
-	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m GITHUB:    \e[32;40;4mgithub.com/He4LAN\e[0m'
+	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m My Website:  \e[32;40;4mhe4lan.org\e[0m'
+	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m INSTAGRAM:   \e[32;40;4minstagram.com/he4lan\e[0m'
+	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m GITHUB:     \e[32;40;4mgithub.com/He4LAN\e[0m'
 
 }
 banner
