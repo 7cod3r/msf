@@ -1,5 +1,6 @@
 # Metasploit
-Metasploit kurulum aracı
+termux kullanıcıları için - Metasploit kurulum aracı
+
 ## Use
 ``chmod 777 msf
 && ./msf``
