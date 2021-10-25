@@ -1,5 +1,6 @@
 # /bin/bash
 # Author: Rooj Official
+# Created by hax4us
 
 case $1 in
 
