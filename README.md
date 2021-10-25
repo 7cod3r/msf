@@ -1,7 +1,7 @@
 # Metasploit
 Metasploit kurulum aracı
 ## Use
-
+``chmod 777 msf``
 ``./msf``
 
 ### For Fast Communication
