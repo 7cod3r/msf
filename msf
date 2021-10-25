@@ -16,9 +16,9 @@ banner(){
     
 "
         echo -e "  \e[32m[\033[31m*\e[32m]\e[32m - Metasploit kurulum aracı - \e[32m[\033[31m*\e[32m]\e[0m"
-	echo ""
+	echo "
+	"
         echo -e '   \e[32m[\033[31m*\e[32m]\033[33m Author:    \e[32mHe4LAN\e[0m\e[31m V1.0\e[0m'
-	echo " "
 	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m My Website:    \e[32;40;4mhe4lan.org\e[0m'
 	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m INSTAGRAM: \e[32;40;4minstagram.com/he4lan\e[0m'
 	echo -e '   \e[32m[\033[31m*\e[32m]\033[33m GITHUB:    \e[32;40;4mgithub.com/He4LAN\e[0m'
@@ -40,7 +40,7 @@ banner
 	echo ""
         echo -e " \e[32m[\033[31m+\e[32m]\e[33m METASPLOIT KURULUYOR."
         sleep 4
-        pkg install git curl wget nmap -y && chmod +x msfinstaller && ./msfinstaller --installcredentials &
+        pkg install git curl wget nmap -y && cd lib && chmod +x msfinstaller && ./msfinstaller --installcredentials /dev/null 2>&1 &
 
     elif [[ $he4 == N ||  $he4 == n  ]]; then
     exit
