@@ -1,4 +1,4 @@
-# Metasploit
+# Msfinstaller
 termux kullanıcıları için - Metasploit kurulum aracı
 
 ## Use
